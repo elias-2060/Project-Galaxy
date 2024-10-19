@@ -1,0 +1,14 @@
+.spaceshipButton{
+    position: absolute;
+    left: 33%;
+}
+.spaceshipsContent{
+    position: absolute;
+    top: 5.5%;
+    left: 33%;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #6f8faf; /* Border with color */
+    background-color: #63809e;
+    color: white; /* Text color */
+    width: 310px;
+}

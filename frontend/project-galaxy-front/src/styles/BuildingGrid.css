@@ -1,0 +1,49 @@
+/* Styles for BuildingGrid, GridRow and GridCell components */
+.buildgrid {
+  background-color: #6f8faf; /* Background color */
+  position: fixed; /* posioning behavior*/
+  left: 35vw; /* positioning from the left of the screen */
+  top: 25vh; /* positioning from the top of the screen */
+  height: 540px; /* height of grid*/
+  width: 540px; /* width of grid */
+  z-index: -1;
+}
+
+.gridrow {
+  padding-top: 40px; /* add padding to the top */
+  margin: 0; /* remove margin */
+  padding-bottom: 55px; /* add bottom padding */
+}
+
+.gridcell {
+  padding-left: 0; /* remove left padding */
+  float: left; /* left allign  */
+  padding-right: 27px; /* add left padding */
+  list-style-type: none; /* remove list style */
+}
+
+.cellbutton {
+  width: 70px; /* height of grid button */
+  height: 70px; /* width of grid button */
+  border-radius: 10px; /* rounded corners */
+  background-color: transparent; /* no background color */
+  border-style: dashed; /* dashed borders */
+  cursor: pointer; /* change cursor style on hover*/
+  transition: background-color 0.3s ease;
+}
+.cellbutton:hover {
+  transform: scale(1.1); /* Scale the button on hover */
+}
+
+.cellbutton:active {
+  background-color: white; /* Change background color when button is clicked */
+}
+
+.cellbutton.active {
+  background-color: transparent; /* Change background color when button is selected */
+}
+
+.cellbutton.selected {
+  background-color: #3e5b78; /* Gray background when selected */
+  color: white; /* Change text color for contrast if needed */
+}

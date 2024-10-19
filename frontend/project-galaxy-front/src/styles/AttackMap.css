@@ -1,0 +1,43 @@
+.MapContainer {
+    position: absolute; /* Position the container in an absolute manner*/
+    padding: 0; /* Remove all padding*/
+    margin: 0; /* Remove all margins */
+    top:0; /* Allign to the top edge */
+    left:0; /* Allign to the left edge */
+    background-image: url('/src/assets/spaceBackground.jpg'); /* set background image */
+    background-attachment: scroll; /* set scrolling behavior */
+    background-repeat: repeat;
+}
+
+.MapContainer:hover {
+    cursor: grab; /* set cursor style when hovering the map*/
+}
+
+.MapContainer:active {
+    cursor: grabbing; /* set cursor style when clicking and draging the map*/
+}
+
+.AttackMapPlanet {
+    background-image: url('/src/assets/planet.png'); /* set background image */
+    background-color: transparent; /* remove background color */
+    border-color: transparent; /* remove border color */
+    border-radius: 200px; /* round the corners */
+    width: 350px; /* set width */
+    height: 350px; /* set height */
+    position: absolute; /* position in a fixed manner */
+}
+
+.AttackMapPlanet:hover {
+    cursor: pointer; /* set pointer style on hover */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* remove scrollbar */
+}
+
+.returnToPlannetButton {
+    position: fixed; /* Positioning the button in a fixed manner */
+    left: 0; /* Aligning the button to the left edge */
+    bottom: 0; /* Aligning the button to the bottom edge */
+    margin: 15px; /* Adding margin around the button */
+  }

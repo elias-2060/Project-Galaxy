@@ -1,0 +1,56 @@
+/* Styles for .createContent class */
+.createContent {
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the border */
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Align items horizontally in the center */
+  gap: 10px; /* Spacing between child elements */
+  width: 200px; /* Width of the menu */
+  height: 300px; /* Height of the menu */
+  border: 2px solid #6f8faf; /* Border with color */
+  position: absolute;
+  left: 105%;
+  top: 0%;
+  background-color: #63809e;
+}
+
+.createContent form {
+  display: flex;
+  flex-direction: column;
+}
+
+.createContent label {
+  margin-bottom: 8px;
+  color: white;
+}
+
+.createContent input[type="text"] {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 2px solid #6f8faf;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+  width: 94%;
+}
+
+.createContent input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.createContent input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.createContent input[type="submit"]:active {
+  transform: translateY(2px);
+}

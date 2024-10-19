@@ -1,0 +1,153 @@
+/* Styles for the attackButton */
+.attackButton, .returnButton {
+  position: fixed; /* Positioning the button in a fixed manner */
+  left: 0; /* Aligning the button to the left edge */
+  bottom: 0; /* Aligning the button to the bottom edge */
+  margin: 15px; /* Adding margin around the button */
+}
+
+/* Styles for the profileButton */
+.profileButton {
+  margin-left: 15px; /* Adding left margin */
+  margin-top: 8px; /* Adding top margin */
+  left: 0; /* Aligning the button to the left edge */
+  top: 0; /* Aligning the button to the top edge */
+  position: fixed; /* Positioning the button in a fixed manner */
+  z-index: 1; /* Setting z-index*/
+}
+
+/* Styles for displayBox1 */
+.displayBox1 {
+  position: fixed; /* Positioning the box in a fixed manner */
+  top: 1.5%; /* Aligning the box to 1.5% from the top */
+  left: 5.9%; /* Aligning the box to 5.9% from the left */
+  z-index: 1; /* Setting z-index*/
+}
+
+/* Styles for displayBox2 */
+.displayBox2 {
+  position: fixed; /* Positioning the box in a fixed manner */
+  top: 6.2%; /* Aligning the box to 6.2% from the top */
+  left: 5.9%; /* Aligning the box to 5.9% from the left */
+  z-index: 1; /* Setting z-index*/ 
+}
+
+/* Styles for displayBoxWithPic */
+.displayBoxWithPic {
+  position: fixed; /* Positioning the box in a fixed manner */
+  left: 17%; /* Aligning the box to 17% from the left */
+  top: 1.5%; /* Aligning the box to 1.5% from the top */
+  z-index: 1; /* Setting z-index*/
+}
+
+/* Styles for displayBoxWithPic2 */
+.displayBoxWithPic2 {
+  position: fixed; /* Positioning the box in a fixed manner */
+  left: 25%; /* Aligning the box to 25% from the left */
+  top: 1.5%; /* Aligning the box to 1.5% from the top */
+  z-index: 1; /* Setting z-index*/
+}
+
+/* Styles for displayBoxWithPic3 */
+.displayBoxWithPic3 {
+  position: fixed; /* Positioning the box in a fixed manner */
+  left: 8.5%; /* Aligning the box to 8.5% from the left */
+  bottom: 3%; /* Aligning the box to 3% from the bottom */
+  z-index: 1; /* Setting z-index*/
+}
+
+/* Styles for dropdownMenu */
+.dropdownMenu {
+  position: fixed; /* Positioning the menu in a fixed manner */
+  left: 0%; /* Aligning the menu to the left edge */
+  top: 13%; /* Aligning the menu to 13% from the top */
+  z-index: 1; /* Setting z-index*/
+}
+
+/* Styles for the planet */
+.planet {
+  position: fixed; /* Positioning the planet in a fixed manner */
+  left: 40%; /* Aligning the planet to 40% from the left */
+  bottom: 22%; /* Aligning the planet to 22% from the bottom */
+}
+
+.shopButton {
+  position: fixed; /* Positioning the planet in a fixed manner */
+  right: 0; /* Aligning the box to the very right */
+  margin-right: 15px; /* Adding right margin*/
+  margin-top: 8px; /* Adding top margin*/
+  z-index: 2; /* setting z-index */
+}
+
+.settlementAndPlanetMenuButton {
+  position: fixed; /* Positioning the button in a fixed manner */
+  right: 0; /* Aligning the button to the right edge */
+  bottom: 0; /* Aligning the button to the bottom edge */
+  margin: 15px; /* Adding margin around the button */
+}
+
+/* Styles for the button to send troops to an opponents planet*/
+.sendTroopButton {
+  position: fixed; /* Positioning the button in a fixed manner */
+  right: 0; /* Aligning the button to the right edge */
+  bottom: 0; /* Aligning the button to the bottom edge */
+  margin: 15px; /* Adding margin around the button */
+}
+
+.AttackButtonTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  left: 0; /* Aligning the tutorial to the left edge */
+  bottom: 110px; /* Aligning the tutorial to the bottom edge */
+  margin: 15px; /* Adding margin around the tutorial */
+}
+
+.ProfileTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  left: 0; /* Aligning the tutorial to the left edge */
+  top: 100px; /* Aligning the tutorial to the top edge */
+  margin: 15px; /* Adding margin around the tutorial */
+}
+
+
+.SettlementAndPlanetMenuTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  right: 0; /* Aligning the tutorial to the right edge */
+  bottom: 110px; /* Aligning the tutorial to the bottom edge */
+  margin: 15px; /* Adding margin around the tutorial */
+}
+
+.SettlementTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  left: calc(40% + 350px); /* Aligning the tutorial from the left */
+  bottom: calc(22% + 350px); /* Aligning the tutorial from the bottom */
+  transform: translateY(100%); /* Move the tutorial down by its height */
+  margin: 15px; /* Adding margin around the tutorial */
+}
+
+.ShopTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  right: 0; /* Aligning the tutorial to the right edge */
+  top: 80px; /* Aligning the tutorial from the top edge */
+  margin: 15px; /* Adding margin around the tutorial */
+}
+
+.CombatAttackButtonTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  left: calc(50vw - 370px ); /* Aligning the button to the left edge */
+  bottom: 5px; /* Aligning the button to the bottom edge */
+  margin: 15px; /* Adding margin around the tutorial */
+}
+
+.AutoPlayButtonTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  left: calc(50vw + 130px); /* Aligning the button to the left edge */
+  bottom: 5px; /* Aligning the button to the bottom edge */
+  margin: 15px; /* Adding margin around the tutorial */
+}
+
+.TutorialSwitchTutorial {
+  position: fixed; /* Positioning the tutorial in a fixed manner */
+  right: 0; /* Aligning the tutorial to the right edge */
+  top: 50px; /* Aligning the tutorial to the bottom edge */
+  margin: 15px; /* Adding margin around the tutorial */
+}

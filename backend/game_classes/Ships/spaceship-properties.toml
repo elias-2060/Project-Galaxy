@@ -1,0 +1,32 @@
+# Spaceship properties
+[spaceship]
+display_name = "Spaceship"
+max_level = 4
+
+[spaceship.level.1]
+build_cost = 100
+upgrade_time = 10 # in seconds
+travel_speed_factor = 2
+unit_capacity = 10
+resource_capacity = 500
+
+[spaceship.level.2]
+build_cost = 500
+upgrade_time = 60 # in seconds
+travel_speed_factor = 3
+unit_capacity = 20
+resource_capacity = 1000
+
+[spaceship.level.3]
+build_cost = 2500
+upgrade_time = 600 # in seconds
+travel_speed_factor = 4
+unit_capacity = 30
+resource_capacity = 2000
+
+[spaceship.level.4]
+build_cost = 5000
+upgrade_time = 3600 # in seconds
+travel_speed_factor = 5
+unit_capacity = 40
+resource_capacity = 4000

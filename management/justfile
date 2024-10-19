@@ -1,0 +1,7 @@
+run:
+    #!/bin/bash
+    export AUTH_TOKEN=password
+    export DEPLOY_SCRIPT=/data/udragg/nextcloud/code/ua/PPDB/ppdb-team-5/management/deploy.sh
+    export PORT=8080
+    export ADDR=127.0.0.1
+    go run src/main.go

@@ -1,0 +1,19 @@
+/* Styles for .box class */
+.box {
+  padding: 7px; /* Padding around the content inside the box */
+  border-radius: 5px; /* Rounded corners for the box */
+  font-size: 20px; /* Font size for the content */
+  color: #333; /* Text color */
+  background-color: #6f8faf; /* Background color */
+  border: none; /* No border */
+  display: flex; /* Display as flex container */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+
+/* Styles for .user-box .icon class */
+.user-box .icon {
+  width: 24px; /* Width of the icon */
+  height: 24px; /* Height of the icon */
+  margin-right: 10px; /* Margin on the right side of the icon */
+}

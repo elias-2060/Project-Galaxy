@@ -1,0 +1,24 @@
+[Unit]
+
+Description=Webserver for the project-galaxy automatic redeploy
+After=network.target
+
+[Service]
+User=project-galaxy
+
+Group=www-data
+
+# Set the working directory
+WorkingDirectory=/opt/project-galaxy/code/management/
+
+# Environment variables for PORT, ADDR, DEPLOY_SCRIPT and AUTH_TOKEN
+# !! Do not forget to set AUTH_TOKEN else the server will run with the empty string as token !!
+EnvironmentFile=/etc/project-galaxy/management/env_settings
+
+# We'll then specify the commanded to start the service
+ExecStart=/opt/project-galaxy/code/management/run.sh
+
+# This will tell systemd what to link this service to if we enable it to start at boot. We want this service to start when the regular multi-user system is up and running:
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,38 @@
+
+.warp-selection-window h2{
+  padding: 10px;
+}
+.list-container {
+  height: 500px; /* Adjust height as needed */
+  width: 400px;
+  overflow-y: auto; /* Enable vertical scrollbar */
+  display: flex; /* Ensure this overrides any other conflicting styles */
+  flex-direction: column; /* Reverse the direction of items */
+  padding: 10px;
+}
+
+.warp_items_list {
+  list-style: square;
+  padding: 5px;
+  flex-direction: column;
+}
+
+button.warp{
+  margin: 4px;
+}
+button:hover.warp{
+  background-color: #373737;
+}
+button::selection.warp{
+  background-color: #373737;
+}
+
+h3.warp{
+  margin: 0;
+  padding: 2px;
+  font-size: 120%;
+}
+h4.warp{
+  margin-bottom: 5px;
+  font-size: 100%;
+}

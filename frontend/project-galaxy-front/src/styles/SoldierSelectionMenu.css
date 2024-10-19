@@ -1,0 +1,168 @@
+.soldier-selection-window {
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  background-color: #6f8faf;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure it appears on top of other content */
+  text-align: center; /* Center align content */
+}
+
+.soldier-selection-window h2 {
+  margin-top: 10px;
+  color: black;
+  text-shadow: 0 0 2px white;
+}
+
+.soldier-selection-window h3 {
+  margin-top: 30px;
+  color: black;
+}
+
+.soldier-selection-window ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.soldier-selection-window ul li {
+  margin-right: 10px;
+  cursor: pointer; /* Add pointer cursor to indicate clickable */
+  padding: 10px;
+  border: 1px solid black; /* Add border */
+  border-radius: 5px; /* Apply border radius */
+  box-shadow: 0 0 3px black;
+}
+
+
+.soldier-selection-window ul li.hover {
+  background-color: darkslategray; /* Change background color on hover */
+}
+.soldier-selection-window ul li.disabled {
+    pointer-events:none;
+    opacity:0.6;
+}
+
+.soldier-selection-window ul li.selected {
+  background-color: #333645;
+  color: white;
+}
+
+.soldier-selection-window button {
+  margin-top: 15%; /* Increase top margin for separation */
+  padding: 4% 16%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  box-shadow: 0 0 2px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.soldier-selection-window button:hover {
+  background-color: #0056b3;
+}
+
+.soldier-selection-window button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.soldier-selection-window ul li .soldier-info {
+  text-align: center; /* Center align content */
+  position: relative;
+  width: 120px;
+  height: 140px;
+}
+
+.soldier-selection-window ul li .soldier-info img {
+  display: block; /* Make the image a block element */
+  margin: 0 0; /* Center the image horizontally */
+  max-width: 100%;
+  height: auto;
+}
+
+.soldier-selection-window ul li .soldier-info span {
+  display: block; /* Make the text a block element */
+  position: relative;
+  bottom: -5px;
+}
+
+
+.soldier-info::after {
+  content: "";
+  position: absolute;
+  left: 0; /* Adjust if needed */
+  bottom: 0; /* Adjust if needed */
+  margin: -10px;
+  width: calc(100% + 20px); /* Adjust for border width */
+  height: 25px; /* Height of the gray stripe */
+  background-color: #404040; /* Gray color */
+  z-index: -1; /* Place the pseudo-element behind the content */
+}
+
+.info-button {
+  position: relative;
+  text-align: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.soldier-selection-window .close-button2 {
+  /* Add styles specific to the close button */
+  position: absolute;
+  margin-top: 0;
+  padding: 0 10px;
+  background-color: red;
+  color: black;
+  font-size: 40px;
+  top: 0;
+  right: 0;
+}
+
+.soldier-selection-window .close-button2:hover {
+  /* Add styles for close button on hover */
+  background-color: darkred; /* Example */
+}
+
+.soldier-selection-window ul li .soldier-stats{
+  text-align: center; /* Center align content */
+  position: relative;
+  width: 240px;
+  height: 140px;
+}
+
+.soldier-stats table {
+  width: 300px;
+  max-height: 100%; /* Adjust as needed */
+  font-size: 16px;
+}
+
+.soldier-stats th,
+.soldier-stats td {
+  width: 50%;
+  padding: 0; /* Add padding to table cells */
+  border: 1px solid black; /* Add borders to table cells */
+}
+
+.reset-image {
+    all: unset;
+    display: inline-block;
+    vertical-align: after-edge; /* or any desired alignment */
+    padding-left: 5px;
+    width: 23px;
+    height: 23px;
+}
+.center_items{
+  all: unset;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,59 @@
+/* Achievement.css */
+
+.redeemed {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4c56af; /* Green */
+    cursor: not-allowed;
+}
+
+.redeemable {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green */
+}
+
+.not-redeemable {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: gray; /* Gray */
+    cursor: not-allowed;
+}
+
+.title {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.reward {
+    display: inline-block;
+}
+
+.image {
+    margin-left: 10px;
+    width: 25px;
+}

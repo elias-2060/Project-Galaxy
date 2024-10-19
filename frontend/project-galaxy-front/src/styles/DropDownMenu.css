@@ -1,0 +1,25 @@
+/* Styles for .menu class */
+.menu {
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the border */
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Align items horizontally in the center */
+  gap: 10px; /* Spacing between child elements */
+  width: 200px; /* Width of the menu */
+  height: 28.5vw; /* Height of the menu */
+  border: 2px solid #6f8faf; /* Border with color */
+  background-color: #63809e;
+}
+
+/* Styling for the button container */
+.button-container {
+  display: flex; /* Display as flex container */
+  justify-content: center; /* Align items horizontally in the center */
+  gap: 20px; /* Adjust spacing between buttons */
+}
+
+/* Styling for direct children of .button-container */
+.button-container > div {
+  transition: all 0.3s ease; /* Smooth transition effect for all properties */
+}

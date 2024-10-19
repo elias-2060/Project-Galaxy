@@ -1,0 +1,27 @@
+.timer-container {
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the border */
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Align items horizontally in the center */
+  gap: 10px; /* Spacing between child elements */
+  width: 250px; /* Width of the menu */
+  height: 50px; /* Height of the menu */
+  border: 2px solid #6f8faf; /* Border with color */
+  font-size: 20px; /* Increased font size */
+  background-color: #6f8faf;
+  position: absolute;
+  z-index: 999; /* Ensures the menu appears on top of other elements */
+}
+
+.timer-text {
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  width: 250px;
+  left:4%;
+  top: 15%;
+}
+.time {
+  color: #ff9800; /* Change this to your desired color */
+}

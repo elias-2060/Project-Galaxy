@@ -1,0 +1,248 @@
+.friendlyNameAndPlanet {
+    position: absolute;
+    left: 10%; 
+    bottom: 30%;
+    width: 350px;
+    height: 412px;
+}
+
+.friendly-planet-name {
+  font-size: 50px; /* Adjust the font size as needed */
+  text-align: center;
+  font-weight: bold; /* Make the font bold */
+  color: white; /* Set the text color */
+}
+
+.opponentNameAndPlanet {
+    position: absolute;
+    right: 10%; 
+    bottom: 30%;
+    width: 350px;
+    height: 412px;
+}
+
+.opponent-planet-name {
+    font-size: 50px; /* Adjust the font size as needed */
+    text-align: center;
+    font-weight: bold; /* Make the font bold */
+    color: white; /* Set the text color */
+}
+
+.player-unit-dropdown-selector {
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    width: 300px;
+    display: grid; 
+    grid-template-columns: 200px 50px 50px ; 
+    grid-gap: 10px; 
+}
+
+.dropdown {
+    width: 200px;
+    user-select: none;
+    position: relative;
+}
+
+.dropdown .dropdown-btn{
+    padding: 15px 20px;
+    background-color: #516d8b;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.dropdown .dropdown-content{
+    position:  absolute;
+    top: 110%;
+    left: 0;
+    background: #63809e;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 1px;
+}
+
+.dropdown .dropdown-content .dropdown-item{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover{
+    background: #fcfcfc;
+}
+
+.carret{
+    transition: all .2s;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid black;  
+   
+}
+
+.dropdown-btn img {
+    width: 25%; /* setting width */
+    height: 90%; /* setting height */
+    position: absolute; /* Positioning the button in an absolute manner */
+    right: 20%;
+}
+
+.player-unit-count, .opponent-unit-count, .dice-roll {
+    background-color: #516d8b;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.dice-roll {
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.round-won {
+    border-color: green;
+}
+
+.round-lost {
+    border-color: red;
+}
+
+
+.opponent-unit-dropdown-selector {
+    position: absolute;
+    top: 47%;
+    right: 30%;
+    width: 300px;
+    display: grid; 
+    grid-template-columns: 50px 50px 200px; 
+    grid-gap: 10px; 
+}
+
+.dropdown .dropdown-btn-opponent {
+    padding: 15px 20px;
+    background-color: #516d8b;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 160px;
+}
+
+.dropdown-btn-opponent img {
+    width: 25%; /* setting width */
+    height: 90%; /* setting height */
+    position: absolute; /* Positioning the button in an absolute manner */
+    right: 20%;
+}
+
+.startTurnButton {
+    position: fixed; /* Positioning the button in a fixed manner */
+    left: calc(50vw - 120px ); /* Aligning the button to the left edge */
+    bottom: 0; /* Aligning the button to the bottom edge */
+    margin: 15px; /* Adding margin around the button */
+}
+
+.autoPlayButton {
+    position: fixed; /* Positioning the button in a fixed manner */
+    left: calc(50vw + 20px); /* Aligning the button to the left edge */
+    bottom: 0; /* Aligning the button to the bottom edge */
+    margin: 15px; /* Adding margin around the button */
+}
+
+.passive-description {
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    padding-right: 30px;
+    width: 160px;
+    height: fit-content;
+    word-wrap: break-word;
+    border-radius: 5px;
+    background-color: #6f8faf;
+}
+
+.active {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 0px 20px 5px rgba(111, 143, 175, 0.7); /* Add shadow */
+}
+
+.combat-result {
+    width: 500px;
+    height: 500px;
+    background-color: #6385a7;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    border-radius: 15px;
+}
+
+.victory {
+    font-size: 100px;
+    font-weight: bold;
+    color: #16cc23;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.victory-text-1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.victory-text-2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.defeat {
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.defeat-text-1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.defeat-text-2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.combat-result .ButtonWithText {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 200px);
+    font-size: 50px;
+    color: black;
+    background-color: #4370a0;
+    margin-bottom: 5px;
+}

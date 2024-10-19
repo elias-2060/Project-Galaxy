@@ -1,0 +1,76 @@
+/* Styles for the button to start combat*/
+.startCombatButton {
+  position: fixed; /* Positioning the button in a fixed manner */
+  right: 0; /* Aligning the button to the right edge */
+  bottom: 0; /* Aligning the button to the bottom edge */
+  margin: 15px; /* Adding margin around the button */
+}
+
+
+.friendlyNameAndPlanet {
+    position: absolute; /* Positioning in an absolute manner */
+    left: 10%; /* Aligning 10% from the left */
+    bottom: 30%; /* Aligning 30% from the bottom */
+    width: 350px; /* setting width */
+    height: 412px; /* setting height */
+}
+
+.friendly-planet-name {
+  font-size: 50px; /* Adjust the font size as needed */
+  text-align: center; /* align text to the center */
+  font-weight: bold; /* Make the font bold */
+  color: white; /* Set the text color */
+}
+
+.opponentNameAndPlanet {
+    position: absolute; /* Positioning in an absolute manner */
+    right: 10%; /* Aligning 10% from the right */
+    bottom: 30%; /* Aligning 30% from the bottom */
+    width: 350px; /* setting width */
+    height: 412px; /* setting height */
+}
+
+.opponent-planet-name {
+    font-size: 50px; /* Adjust the font size as needed */
+    text-align: center; /* align text to the center */
+    font-weight: bold; /* Make the font bold */
+    color: white; /* Set the text color */
+}
+
+.troop-arrival-timer {
+    position: absolute; /* Positioning in an absolute manner */
+    height: 100px; /* setting height */
+    bottom: 10px; /* Aligning 10px from the bottom */
+    left: 37.5%; /* Aligning 37.5% from the right */
+    width: 25%; /* setting width */
+
+}
+
+.troop-arrival-timer .timer-container {
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the border */
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Align items horizontally in the center */
+  gap: 10px; /* Spacing between child elements */
+  width: 100%; /* Width of the menu */
+  height: 60px; /* Height of the menu */
+  border: 2px solid #6f8faf; /* Border with color */
+  font-size: 20px; /* Increased font size */
+  background-color: #6f8faf; /* setting background color */
+  position: relative; /* Positioning in a relative manner */
+  z-index: 999; /* Ensures the menu appears on top of other elements */
+  left: 0 !important; /* Aligning to the left edge */
+}
+    
+.troop-arrival-timer .timer-text {
+  position: relative; /* Positioning in a relative manner */
+  font-size: 25px; /* setting font size */
+  color: white;
+  width: 100%;
+    left: 0px;
+    top: 0px;
+}
+.troop-arrival-timer .time {
+  color: #ff9800; /* Change this to your desired color */
+}

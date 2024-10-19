@@ -1,0 +1,20 @@
+# editor projects
+.idea
+.vscode
+
+# python venv
+.venv
+venv
+env
+
+
+# godot
+.godot
+
+# export
+/frontend-export
+*.db
+
+# python cache files
+__pycache__
+

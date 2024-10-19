@@ -1,0 +1,9 @@
+project-galaxy ALL=(root) NOPASSWD: \
+    /usr/bin/systemctl start project-galaxyd.service, \
+    /usr/bin/systemctl stop project-galaxyd.service, \
+    /usr/bin/systemctl restart project-galaxyd.service, \
+    /usr/bin/systemctl enable project-galaxyd.service, \
+    /usr/bin/systemctl enable project-galaxyd.service --now, \
+    /usr/bin/systemctl disable project-galaxyd.service, \
+    /usr/bin/systemctl disable project-galaxyd.service --now, \
+    /usr/bin/systemctl restart nginx

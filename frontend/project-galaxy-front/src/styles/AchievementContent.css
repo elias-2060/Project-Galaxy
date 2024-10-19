@@ -1,0 +1,25 @@
+.scrollable-content {
+  max-height: 400px; /* Set the maximum height for the scrollable content */
+  overflow-y: scroll; /* Always display vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.scrollable-content > * {
+  display: block; /* Ensure buttons are displayed as block elements */
+  margin-bottom: 10px; /* Add spacing between the buttons */
+}
+.scrollable-content::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background: #6f8faf; /* Color of the scrollbar handle */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle on hover */
+}

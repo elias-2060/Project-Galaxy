@@ -1,0 +1,89 @@
+.joinMenu {
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the border */
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Align items horizontally in the center */
+  gap: 10px; /* Spacing between child elements */
+  width: 200px; /* Width of the menu */
+  height: 300px; /* Height of the menu */
+  border: 2px solid #6f8faf; /* Border with color */
+  position: absolute;
+  left: 105%;
+  top: 0%;
+  background-color: #63809e;
+}
+
+.scrollableList {
+  max-height: 250px; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+/* Adjust scrollbar width */
+.scrollableList::-webkit-scrollbar {
+  width: 5px; /* Adjust width as needed */
+}
+
+/* Adjust scrollbar track color */
+.scrollableList::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Adjust track color as needed */
+}
+
+/* Adjust scrollbar thumb color */
+.scrollableList::-webkit-scrollbar-thumb {
+  background: #6f8faf; /* Adjust thumb color as needed */
+}
+
+.listItem {
+  padding: 15px;
+  font-size: 16px; /* Increase font size */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid #6f8faf; /* Update border properties */
+  border-radius: 6px; /* Add border radius */
+  color: white;
+}
+
+.listItem:hover {
+  background-color: #333;
+}
+
+.listItem.selected {
+  background-color: #6f8faf;
+  color: white;
+  transition: background-color 0.2s; /* Add transition for smooth effect */
+}
+
+.allianceName {
+  font-weight: bold;
+  font-size: 18px; /* Increase font size */
+}
+
+.allianceDescription {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.joinButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.joinButton:hover {
+  background-color: #0056b3;
+}
+.joinButton:active {
+  transform: translateY(2px);
+}
+
+.joinButton:disabled {
+  background-color: #333;
+  cursor: not-allowed;
+}

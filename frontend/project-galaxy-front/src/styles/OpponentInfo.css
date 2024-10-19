@@ -1,0 +1,47 @@
+.opponentProfile {
+    margin-right: 15px; /* Adding right margin */
+    margin-top: 8px; /* Adding top margin */
+    right: 0; /* Aligning the button to the right edge */
+    top: 0; /* Aligning the button to the top edge */
+    position: fixed; /* Positioning the button in a fixed manner */
+}
+
+.opponentProfile .ButtonWithPicture:hover {
+    box-shadow: none; /* Remove box shadow */
+    transform: scale(1.0); /* No scaling on hover */
+    cursor: default; /* No special cursor on hover */
+}
+
+.opponentProfile .ButtonWithPicture:active {
+    background-color: #6f8faf; /* Set background color when pressed */
+}
+
+.opponentUserName {
+    position: fixed; /* Positioning the box in a fixed manner */
+    top: 1.5%; /* Aligning the box to 1.5% from the top */
+    right: 5.9%; /* Aligning the box to 5.9% from the right */
+}
+
+.opponentRaceName {
+    position: fixed; /* Positioning the box in a fixed manner */
+    top: 6.2%; /* Aligning the box to 6.2% from the top */
+    right: 5.9%; /* Aligning the box to 5.9% from the right */
+}
+
+.opponentBuildingResources {
+    position: fixed; /* Positioning the box in a fixed manner */
+    right: 17%; /* Aligning the box to 17% from the right */
+    top: 1.5%; /* Aligning the box to 1.5% from the top */
+}
+
+.opponentFood {
+    position: fixed; /* Positioning the box in a fixed manner */
+    right: 25%; /* Aligning the box to 25% from the right */
+    top: 1.5%; /* Aligning the box to 1.5% from the top */
+}
+
+.opponentTroops {
+    position: fixed; /* Positioning the box absolutely */
+    right: 17%; /* Aligning the box to 17% from the right */
+    top: 6.2%; /* Aligning the box to 6.2% from the top */
+}

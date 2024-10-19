@@ -1,0 +1,90 @@
+/* Chatbox container */
+.chatbox {
+    margin-top: 15px;
+    width: 200px;
+    height: 20.5vw;
+    background-color: #2F3E46;;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-inline: 16px;
+    padding-block: 0px;
+}
+
+/* Chat messages */
+.chatbox .messages {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    margin-left: -15px;
+    padding: 15px;
+    background-color: #4B5B6B;
+    overflow-y: auto;
+    color: #fff;
+    gap: 5px;
+}
+/* Chat messages */
+.chatbox .own-message {
+    width: fit-content;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    background-color: #1da063;
+    color: #fff;
+    align-self: self-end;
+}
+
+/* Chat messages */
+.chatbox .other-message {
+    width: fit-content;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    background-color: #447eb8;
+    color: #fff;
+}
+
+.chatbox .messages .username {
+    font-weight: bold;
+    font-size: 75%;
+}
+.chatbox .messages .message {
+    padding-inline-start: 10px;
+}
+
+/* Input area */
+.chatbox .input-area {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    background-color: #4B5B6B;
+    border: 1px solid #000000;
+    color: #fff;
+}
+
+.chatbox .input-area2 {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* Input field */
+.chatbox .input-area-input {
+    width: 100%;/* Adjust as needed */
+    margin-left: -15px; 
+}
+
+/* Send button */
+.chatbox  button {
+    padding: 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

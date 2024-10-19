@@ -1,0 +1,95 @@
+.shop {
+    position: relative; /* posioning behavior*/
+}
+
+.sideshop {
+    width: 15vw; /* width of shop */
+    background-color: #63809e; /* background color */
+    position: fixed; /* positioning behavior */
+    height: 88vh; /* height of shop */
+    padding: 10px 0px; /* add top/bottom padding, no left/right padding */
+    transition: 0.3s; /* transtition speed when opening/closing shop */
+    right: -100%; /* position shop off screen when not opened */
+    border-radius: 15px; /* rounded corners */
+    z-index: 10; /* set shop to foreground*/
+    top: 90px; /* position from the top of the screen */
+}
+
+.sideshop.active {
+    right: 1%; /* show shop on the right side of the screen */
+
+}
+
+.sideshop.active ul {
+    padding-left: 20px; /* add left padding */
+}
+
+.sideshop.active ul li {
+    list-style-type: none; /* remove list style */
+    padding-bottom: 20px; /* add bottom padding */
+}
+
+
+.shopItemButton {
+  width: 95%;
+  height: 90px; /* Adjusted height */
+  border-radius: 10px;
+  background-color: #6f8faf;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-size: 30px; 
+  color: #333;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.shopItemButton > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopItemButton > div > span:first-child {
+  order: -1; /* Change the order of the first span */
+}
+
+.shopItemButton > div > span:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.shopItemButton > div > span:last-child img {
+  width: 1.2em; /* Adjusted width */
+  height: 1.2em; /* Adjusted height */
+  margin-left: 5px; /* Adjusted margin */
+}
+.shopItemButton:hover {
+    box-shadow: 0px 0px 20px 10px rgba(111, 143, 175, 0.7); /* add shadow on hover */
+    transform: scale(1.1); /* scale button on hover */
+  }
+  
+  .shopItemButton:active {
+    background-color: white; /* Change background color when button is clicked */
+  }
+
+  .shopItemButton.selected {
+    transform: scale(1.05); /* scale button when it's selected */
+    background-color: white; /* Change background color when item is selected */
+  }
+
+  .shopItemButton.selected:hover {
+    box-shadow: 0px 0px 20px 10px rgba(111, 143, 175, 0.7); /* add shadow on hover */
+    transform: scale(1.1); /* scale button on hover */
+    background-color: white; /* Change background color when item is selected */
+  }
+  p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+  }

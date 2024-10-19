@@ -1,0 +1,10 @@
+/* Styles for raceContent class */
+.raceContent {
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items vertically */
+}
+
+/* Styles for direct children of raceContent */
+.raceContent > * {
+  margin-bottom: 10px; /* Add spacing between the buttons and other children */
+}

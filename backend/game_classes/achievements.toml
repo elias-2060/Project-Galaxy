@@ -1,0 +1,48 @@
+[[achievement]]
+name = "first-building"
+description = "Build your first building"
+reward = 500
+requirement = "True"
+
+[[achievement]]
+name = "first-troop"
+description = "Train your first troop"
+reward = 1000
+requirement = """
+any(
+    isinstance(building, (game_classes.Barrack)) and len(building.attack_units) > 0
+    for planet in user.planets
+    for settlement in planet.settlements
+    for building in settlement.buildings
+)
+"""
+
+[[achievement]]
+name = "first-warper"
+description = "Build your first warper"
+reward = 5000
+requirement = """
+any(
+    isinstance(building, (game_classes.Warper))
+    for planet in user.planets
+    for settlement in planet.settlements
+    for building in settlement.buildings
+)
+"""
+
+[[achievement]]
+name = "second-settlement"
+description = "Unlock the second settlement"
+reward = 4000
+requirement = """
+any(
+    len(planet.settlements) > 1
+    for planet in user.planets
+)
+"""
+
+[[achievement]]
+name = "second-planet"
+description = "Buy a second planet"
+reward = 10000
+requirement = "len(user.planets) > 1"

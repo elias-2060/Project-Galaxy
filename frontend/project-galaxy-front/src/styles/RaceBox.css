@@ -1,0 +1,13 @@
+.RaceBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #63809e;
+    border-radius: 5px;
+    
+}
+
+.RaceBox .settings {
+    margin-left: 5px;
+}

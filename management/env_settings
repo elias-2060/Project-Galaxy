@@ -1,0 +1,5 @@
+PORT=8247
+ADDR=127.0.0.1
+DEPLOY_SCRIPT=/opt/project-galaxy/code/server/redeploy.sh
+AUTH_TOKEN=
+

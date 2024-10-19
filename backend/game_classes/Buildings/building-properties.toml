@@ -1,0 +1,177 @@
+# Barrack properties
+[barrack]
+display_name = "Barrack"
+max_level = 4
+
+[barrack.level.1]
+build_cost = 100
+upgrade_time = 10 # in seconds
+max_capacity = 10
+
+[barrack.level.2]
+build_cost = 500
+upgrade_time = 60 # in seconds
+max_capacity = 15
+
+[barrack.level.3]
+build_cost = 2500
+upgrade_time = 600 # in seconds
+max_capacity = 20
+
+[barrack.level.4]
+build_cost = 5000
+upgrade_time = 3600 # in seconds
+max_capacity = 30
+
+
+# Farm properties
+[farm]
+display_name = "Farm"
+max_level = 4
+
+[farm.level.1]
+build_cost = 150
+upgrade_time = 10     # in seconds
+production_rate = 200 # per hour
+capacity = 1000
+
+[farm.level.2]
+build_cost = 300
+upgrade_time = 60     # in seconds
+production_rate = 400 # per hour
+capacity = 2000
+
+[farm.level.3]
+build_cost = 700
+upgrade_time = 240    # in seconds
+production_rate = 600 # # per hour
+capacity = 3000
+
+[farm.level.4]
+build_cost = 1400
+upgrade_time = 600    # in seconds
+production_rate = 800 # # per hour
+capacity = 5000
+
+
+# Mine properties
+[mine]
+display_name = "Mine"
+max_level = 4
+
+[mine.level.1]
+build_cost = 150
+upgrade_time = 10     # in seconds
+production_rate = 200 # per hour
+capacity = 1000
+
+[mine.level.2]
+build_cost = 300
+upgrade_time = 60     # in seconds
+production_rate = 400 # per hour
+capacity = 2000
+
+[mine.level.3]
+build_cost = 700
+upgrade_time = 240    # in seconds
+production_rate = 600 # # per hour
+capacity = 3000
+
+[mine.level.4]
+build_cost = 1400
+upgrade_time = 600    # in seconds
+production_rate = 800 # # per hour
+capacity = 5000
+
+
+# Town hall properties
+[town_hall]
+display_name = "Town Hall"
+max_level = 4
+
+[town_hall.level.1]
+build_cost = 0
+upgrade_time = 0 # in seconds
+
+[town_hall.level.2]
+build_cost = 1000
+upgrade_time = 10 # in seconds
+
+[town_hall.level.3]
+build_cost = 4000
+upgrade_time = 3600 # in seconds
+
+[town_hall.level.4]
+build_cost = 25000
+upgrade_time = 10800 # in seconds
+
+
+# Spaceport properties
+[spaceport]
+display_name = "Space Port"
+max_level = 6
+
+# level overrides
+[spaceport.level.1]
+build_cost = 2500
+upgrade_time = 600 # in seconds
+max_ships = 1
+production_time = 600 # in seconds
+
+[spaceport.level.2]
+build_cost = 5000
+upgrade_time = 1800 # in seconds
+max_ships = 2
+production_time = 540 # in seconds
+
+[spaceport.level.3]
+build_cost = 10000
+upgrade_time = 3600 # in seconds
+max_ships = 3
+production_time = 480 # in seconds
+
+[spaceport.level.4]
+build_cost = 25000
+upgrade_time = 7200 # in seconds
+max_ships = 4
+production_time = 420 # in seconds
+
+[spaceport.level.5]
+build_cost = 50000
+upgrade_time = 21600 # in seconds
+max_ships = 5
+production_time = 360 # in seconds
+
+[spaceport.level.6]
+build_cost = 100000
+upgrade_time = 86400 # in seconds
+max_ships = 6
+production_time = 300 # in seconds
+
+
+# Warper properties
+[warper]
+display_name = "Warper"
+max_level = 4
+
+[warper.level.1]
+build_cost = 750
+upgrade_time = 10     # in seconds
+travel_factor = 10
+
+[warper.level.2]
+build_cost = 1500
+upgrade_time = 60     # in seconds
+travel_factor = 20
+
+[warper.level.3]
+build_cost = 3500
+upgrade_time = 240    # in seconds
+travel_factor = 30
+
+[warper.level.4]
+build_cost = 7000
+upgrade_time = 600    # in seconds
+travel_factor = 40
+
+

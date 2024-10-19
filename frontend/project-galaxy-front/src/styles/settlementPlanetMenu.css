@@ -1,0 +1,179 @@
+.SettlementAndPlanetMenu {
+    border-radius: 15px; /* Rounded corners for the button */
+    background-color: #63809e; /* Background color */
+    height: 190px; /* setting height */
+    width: 200px; /* setting width */
+    right: 0; /* positioning from the left of the screen */
+    bottom: 115px; /* positioning from the top of the screen */
+    position: absolute;  /* Positioning the button in an absolute manner */
+    margin: 15px; /* Adding margin */
+    text-align:center; /* alligning text to the center */
+    padding-top: 10px; /* Adding top padding */
+}
+
+.SettlementAndPlanetMenu .ButtonWithText {
+    position: relative; /* Positioning the button in a relative manner */
+    margin-bottom: 10px; /* Adding bottom margin */
+}
+
+.SettlementAndPlanetMenu .ButtonWithText:hover {
+    background-color: #6f8faf; /* Background color */
+}
+
+.SwitchPlanet {
+    border-radius: 15px; /* Rounded corners for the button */
+    background-color: #63809e; /* Background color */
+    height: 240px; /* setting height */
+    width: 300px; /* setting width */
+    right: 0; /* positioning from the left of the screen */
+    bottom: 320px; /* positioning from the top of the screen */
+    position: absolute; /* Positioning the button in an absolute manner */
+    margin: 15px; /* adding margin */ 
+    text-align:center; /* allign text to the center */
+    padding-top: 10px; /* Adding top padding */
+    overflow-y: scroll; /* Always display vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.SwitchPlanet .ButtonWithText {
+    position: relative; /* Positioning the button in a relative manner */
+    margin: auto; /* adding margin */
+    margin-bottom: 10px; /* Adding bottom margin */
+}
+
+.SwitchPlanet > * {
+    display: block; /* Ensure buttons are displayed as block elements */
+    margin-bottom: 10px; /* Add spacing between the buttons */
+}
+
+.SwitchPlanet::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+  
+.SwitchPlanet::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+}
+  
+.SwitchPlanet::-webkit-scrollbar-thumb {
+    background: #6f8faf; /* Color of the scrollbar handle */
+}
+  
+.SwitchPlanet::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar handle on hover */
+}
+
+.BuyPlanet {
+    border-radius: 15px; /* Rounded corners for the button */
+    background-color: #63809e; /* Background color */
+    height: 350px; /* setting height */
+    width: 300px; /* setting width */
+    right: 0; /* positioning from the left of the screen */
+    bottom: 320px; /* positioning from the top of the screen */
+    position: absolute; /* Positioning the button in an absolute manner */
+    margin: 15px; /* Adding margin */
+    text-align:center;  /* allign text to the center */
+    padding-top: 10px; /* Adding top padding */
+    overflow-y: scroll; /* Always display vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.BuyPlanet .ButtonWithText {
+    position: relative; /* Positioning the button in a relative manner */
+    margin: auto; /* adding margin */
+    margin-bottom: 10px; /* adding bottom margin */
+}
+
+.BuyPlanet > * {
+    display: block; /* Ensure buttons are displayed as block elements */
+    margin-bottom: 10px; /* Add spacing between the buttons */
+}
+
+.BuyPlanet::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+  
+.BuyPlanet::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+}
+  
+.BuyPlanet::-webkit-scrollbar-thumb {
+    background: #6f8faf; /* Color of the scrollbar handle */
+}
+  
+.BuyPlanet::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar handle on hover */
+}
+
+.CostBar { 
+    position: sticky; /* Positioning the button in a stikcy manner */
+    padding: 0; /* removing padding */
+    margin-bottom: 0; /* removing bottom margin */
+    width: 100%; /* setting width */
+    height: 50px; /* setting height */
+    line-height: 40px; /* setting line heigth */
+    bottom: 0; /* positioning from the bottom */
+    background-color: #516d8b; /* Background color */
+    font-size: 20px; /* setting font size */
+    text-align: left; /* alligning text to the left */ 
+}
+
+.cost-icon {
+    position: absolute;
+    top: 5px;
+  }
+
+.BuySettlement {
+    border-radius: 15px; /* Rounded corners for the button */
+    background-color: #63809e; /* Background color */
+    height: 300px; /* setting height */
+    width: 300px; /* setting width */
+    right: 0; /* positioning from the left of the screen */
+    bottom: 320px; /* positioning from the top of the screen */
+    position: absolute; /* Positioning the button in an absolute manner */
+    margin: 15px; /* adding margin */
+    text-align:center; /* alligning text to the center */ 
+    padding-top: 10px; /* adding top padding */
+}
+
+.BuySettlement button:hover{
+  box-shadow: 0px 0px 20px 10px rgba(111, 143, 175, 0.7); /* Add shadow on hover */
+  transform: scale(1.01); /* Scale the button on hover */
+}
+
+.SecondSettlement, .ThirdSettlement{
+    border-radius: 15px; /* Rounded corners for the button */
+    height: 140px; /* setting height */
+    width: 290px; /* setting width */
+    background-color: #6f8faf; /* Background color */
+    margin-bottom: 10px; /* adding bottom margin */
+    position: relative; /* Positioning the button in a relative manner */
+    text-align: left; /* alligning text to the left */ 
+}
+
+.SettlementName {
+    position: relative; /* Positioning the button in a relative manner */
+    height: 50%; /* setting height */
+    line-height: 70px; /* setting line height */
+    padding-left: 80px; /* adding left padding */
+    font-size: 20px; /* setting font size */
+}
+
+.SettlementName img {
+    width: 25%; /* setting width */
+    height: auto; /* setting height */
+    position: absolute; /* Positioning the button in an absolute manner */
+    left: 0; /* positioning from the left */
+}
+
+.SettlementCost {
+    position: relative; /* Positioning the button in a relative manner */
+    height: 50%; /* setting height */
+    font-size: 20px;  /* setting font size */
+    line-height: 70px; /* setting font size */
+}
+
+.SettlementCost img { 
+    position: relative; /* Positioning the button in a relative manner */
+    top: 4px; /* positioning from the top */
+}
+

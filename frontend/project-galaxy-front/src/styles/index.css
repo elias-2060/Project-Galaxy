@@ -1,0 +1,8 @@
+/* Styles for the root element */
+:root {
+    background-color: black; /* Set background color to black */
+    background-image: url('/src/assets/spaceBackground.jpg'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fixed background position */
+}

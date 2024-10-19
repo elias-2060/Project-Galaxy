@@ -1,0 +1,101 @@
+[space_commando]
+display_name = "Space Commando"
+max_level = 4
+size = 6
+
+[space_commando.level.1]
+attack_power     = 20
+rations_per_hour = 9
+training_time    = 240
+training_cost    = 40
+upgrade_cost     = 0
+
+[space_commando.level.2]
+attack_power     = 40 
+rations_per_hour = 15 
+training_time    = 480
+training_cost    = 60 
+upgrade_cost     = 500
+
+[space_commando.level.3]
+attack_power     = 80  
+rations_per_hour = 21  
+training_time    = 720 
+training_cost    = 90  
+upgrade_cost     = 1000
+
+[space_commando.level.4]
+attack_power     = 160
+rations_per_hour = 30
+training_time    = 960
+training_cost    = 120
+upgrade_cost     = 1500
+
+
+[space_drone]
+display_name = "Space Drone"
+max_level = 4
+size = 20
+
+
+[space_drone.level.1]
+attack_power     = 200 
+rations_per_hour = 50  
+training_time    = 1800
+training_cost    = 1000
+upgrade_cost     = 0   
+
+[space_drone.level.2]
+attack_power     = 400 
+rations_per_hour = 100 
+training_time    = 3600
+training_cost    = 2000
+upgrade_cost     = 2000
+
+[space_drone.level.3]
+attack_power     = 800 
+rations_per_hour = 150 
+training_time    = 5400
+training_cost    = 3000
+upgrade_cost     = 4000
+
+[space_drone.level.4]
+attack_power     = 1200
+rations_per_hour = 200 
+training_time    = 7200
+training_cost    = 4000
+upgrade_cost     = 6000
+
+
+[space_marine]
+display_name = "Space Marine"
+max_level = 4
+size = 3
+        
+[space_marine.level.1]
+attack_power     = 10
+rations_per_hour = 3 
+training_time    = 60
+training_cost    = 10
+upgrade_cost     = 0 
+
+[space_marine.level.2]
+attack_power     = 20 
+rations_per_hour = 5  
+training_time    = 120
+training_cost    = 20 
+upgrade_cost     = 250
+
+[space_marine.level.3]
+attack_power     = 40 
+rations_per_hour = 7  
+training_time    = 180
+training_cost    = 30 
+upgrade_cost     = 500
+
+[space_marine.level.4]
+attack_power     = 80 
+rations_per_hour = 10 
+training_time    = 240
+training_cost    = 40
+upgrade_cost     = 750

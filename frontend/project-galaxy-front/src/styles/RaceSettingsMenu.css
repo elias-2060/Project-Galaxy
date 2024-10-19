@@ -1,0 +1,57 @@
+.RaceSettingsMenu {
+    margin-top: 15px;
+    width: 200px;
+    height: 18.9vw;
+    background-color: #2F3E46;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    padding: 16px;
+}
+
+.member {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.settings-header {
+    text-align: center;
+    color: #333;
+}
+
+.settings-content {
+    margin-top: 20px;
+}
+
+.settings-value {
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 200px;
+}
+
+.members-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.leave-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

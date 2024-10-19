@@ -1,0 +1,106 @@
+.menu-container {
+  position: absolute;
+  z-index: 999; /* Ensures the menu appears on top of other elements */
+}
+
+.menu2 {
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the border */
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Align items horizontally in the center */
+  gap: 10px; /* Spacing between child elements */
+  width: 300px; /* Width of the menu */
+  height: 200px; /* Height of the menu */
+  border: 2px solid #6f8faf; /* Border with color */
+  font-size: 20px; /* Increased font size */
+  background-color: #6f8faf;
+}
+
+.structure-info {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.stats-info {
+  font-size: 20px;
+  color: white;
+  position: relative;
+}
+
+.building-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -20%;
+  margin-right: -5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  width: 100%; /* Full width */
+  position: relative;
+}
+
+/* Common styles for buttons */
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Add transition for hover effect */
+}
+
+/* Enabled state */
+button:enabled:hover {
+  transform: scale(1.1); /* Scale the button on hover */
+}
+
+button:enabled:active {
+  transform: translateY(2px);
+}
+
+/* Disabled state */
+button:disabled {
+  opacity: 0.5; /* Reduce opacity for disabled buttons */
+  cursor: not-allowed; /* Change cursor for disabled buttons */
+}
+
+.upgrade-button {
+  background-color: #4caf50;
+  color: white;
+  height: 30px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  height: 30px;
+}
+
+.collect-button {
+  background-color: #2196f3; /* Blue color */
+  color: white;
+  height: 30px;
+}
+
+.start-farming-button {
+  background-color: #ff9800; /* Orange color */
+  color: white;
+  height: 50px;
+  display: inline-block; /* Ensures buttons are positioned next to each other */
+  max-width: 200px; /* Adjust the max-width as needed */
+  margin-right: 10px; /* Adds space between buttons */
+}
+
+.time-info {
+  font-size: 20px;
+  color: #ff9800;
+  text-align: center;
+  padding: 2px;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 5px;
+}

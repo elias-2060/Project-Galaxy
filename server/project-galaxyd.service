@@ -1,0 +1,22 @@
+[Unit]
+
+Description=Webserver for the project-galaxy site
+After=network.target
+
+[Service]
+# Service specify the user and group under which our process will run.
+User=project-galaxy
+Group=www-data
+
+# Set the working directory
+WorkingDirectory=/opt/project-galaxy/code/
+
+# We'll then specify the commanded to start the service
+ExecStart=/opt/project-galaxy/code/server/run.sh
+
+# This will tell systemd what to link this service to if we enable it to start at boot. We want this service to start when the regular multi-user system is up and running:
+[Install]
+WantedBy=multi-user.target
+
+
+
