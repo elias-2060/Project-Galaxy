@@ -15,5 +15,5 @@ For frontend, we are using React. Everything is found in `frontend/`.
 
 Everything is found in `backend/game_classes/`.
 
-# [Documentation](https://github.com/hendrik-de-bruyn/PPDB-Team-5/wiki)
+# [Documentation](https://github.com/elias-2060/Project-Galaxy/wiki)
 All the documentation is found on the wiki of our repository.
